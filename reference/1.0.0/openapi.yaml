@@ -43,6 +43,9 @@ paths:
       - BasicAuth: []
       tags:
         - enrichedTransactions
+      x-group-name: Specs
+      x-proxy-name: apis
+      summary: Returns OpenAPI Spec.
       operationId: enrichedTransactions
       requestBody:
         content:
