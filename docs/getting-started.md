@@ -169,7 +169,8 @@ Request URL is formed by appending Host URL and API path.
 To get Host URL, go to API key section of your Workspace. The API path along with the method (POST or PUT) is listed under the API Explorer section of that API on Fiserv Developer Studio. 
 Refer the following example to construct a request URL for [**Transaction Enrichment**](../api/?type=post&path=/transactions/v2/enrichments) API:
 
-![image](.github/images/API_Header.png)
+![API_Header](https://github.com/user-attachments/assets/8f8147ab-13d3-4b0c-a1d1-6db91da6d01a)
+
 
 
 ### Access Token
