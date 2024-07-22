@@ -32,6 +32,17 @@
   - title: Getting Started
     link: docs/getting-started.md
 - sections:
+  - title: Recipes
+    sections:
+      - title: Card Transaction Enrichment
+        link: recipes/Recipe-1.md
+      - title: Account Transaction Enrichment
+        link: recipes/Recipe-2.md
+      - title: ATM Transaction Enrichment
+        link: recipes/Recipe-3.md
+      - title: BillPay Transaction Enrichment
+        link: recipes/Recipe-4.md
+- sections:
   - title: Release notes
     sections:
     - title: July 2024
