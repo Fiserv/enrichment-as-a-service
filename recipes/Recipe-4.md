@@ -1,28 +1,6 @@
-# Recipe #1
+# Recipe #4
 
-BillPay Transaction Enrichment 
-
----
-- [Step 1: Create Keys](#step-1-create-keys)
-- [Step 2: Get Enrichment Details](#step-2-get-payment-details)
-
-
-
----
-
-## Step 1: Create Keys
-Please connect with implementation team to enroll 
-
-
-## Step 2: Get enrichment details
-The BillPay Based enrichment
-
-```json
-{
-   "transactionDescription": "BILL PAY JODY CHASE MILEAGE UNITED ON-LINE xxxxxxxxxxxx4784 ON 01-09"  
-}
-```
-
+## BillPay Transaction Enrichment 
 
 <!--
 type: tab

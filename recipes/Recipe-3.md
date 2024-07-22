@@ -1,28 +1,6 @@
-# Recipe #1
+# Recipe #3
 
-ATM Transaction Enrichment 
-
----
-- [Step 1: Create Keys](#step-1-create-keys)
-- [Step 2: Get Enrichment Details](#step-2-get-payment-details)
-
-
-
----
-
-## Step 1: Create Keys
-Please connect with implementation team to enroll 
-
-
-## Step 2: Get enrichment details
-The ATM Based enrichment
-
-```json
-{
-   "transactionDescription": "ATM CASH DEPOSIT ON 03/07 4580 Jimmy Lee Smith Pkwy Hiram GA 0001648 ATM ID 0723N CARD 4487"
-}
-```
-
+## ATM Transaction Enrichment 
 
 <!--
 type: tab

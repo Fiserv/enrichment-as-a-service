@@ -1,29 +1,6 @@
 # Recipe #1
 
-Card Transaction Enrichment 
-
----
-- [Step 1: Create Keys](#step-1-create-keys)
-- [Step 2: Get Enrichment Details](#step-2-get-payment-details)
-
-
-
----
-
-## Step 1: Create Keys
-Please connect with implementation team to enroll 
-
-
-## Step 2: Get enrichment details
-The Card Based enrichment
-
-```json
-{
-    "transactionDescription": "PURCHASE AUTHORIZED ON 02/04 COSTCO WHSE #1004 SAN JOSE CA P383036079858356 CARD 1504",
-     "mcc": "5300"
-}
-```
-
+## Card Transaction Enrichment 
 
 <!--
 type: tab
