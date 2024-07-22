@@ -1,6 +1,6 @@
 # Recipe #3
 
-## Card Transaction Enrichment 
+## ATM Transaction Enrichment 
 
 
 ## Get ATM Transaction enrichment details
