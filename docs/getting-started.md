@@ -28,7 +28,6 @@ All API requests must contain the following components:
 
 *	[API Method](#api-method)
 * [Request URL](#request-url)
-* [Access Token](#access-token)
 *	[Request Header](#request-header)
 *	[Request Body](#request-body)
 
