@@ -2,9 +2,6 @@
 
 ## Card Transaction Enrichment 
 
-
-## Get Card Transaction enrichment details
-
 <!--
 type: tab
 titles: Request, Response
