@@ -1,7 +1,7 @@
 
 
 ---
-version: 1.0.0
+version: 24.1.0
 recipes:
 - link: recipes/Recipe-1.md
   title: Card Transaction Enrichment
