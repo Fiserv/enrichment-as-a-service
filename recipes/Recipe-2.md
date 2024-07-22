@@ -6,13 +6,6 @@
 ## Get Account Transaction enrichment details
 The Account Based enrichment
 
-```json
-{
-   "transactionDescription": "BILL PAY CHASE HOME FINANCE RECURRING xxxxxx0312 ON 01-13"
-}
-```
-
-
 <!--
 type: tab
 titles: Request, Response
