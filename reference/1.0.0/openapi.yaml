@@ -32,7 +32,7 @@ openapi: 3.0.1
 info:
   title: Enrichment As a Service
   description: A cloud-based service to cleanse and then enrich transactions with additional data attributes, including **merchant names**, **location**, **merchant logos**, **categories**, **transaction type** and **merchant contact information**.
-  version: v24.1.0
+  version: v1.0.0
 servers:
   - url: https://tenants.fiserv.com/
     
