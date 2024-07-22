@@ -2,17 +2,6 @@
 
 ## BillPay Transaction Enrichment 
 
-
-## Get BillPay Transaction enrichment details
-The BillPay Based enrichment
-
-```json
-{
-   "transactionDescription": "BILL PAY JODY CHASE MILEAGE UNITED ON-LINE xxxxxxxxxxxx4784 ON 01-09"  
-}
-```
-
-
 <!--
 type: tab
 titles: Request, Response
