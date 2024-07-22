@@ -6,13 +6,6 @@
 ## Get ATM Transaction enrichment details
 The ATM Based enrichment
 
-```json
-{
-   "transactionDescription": "ATM CASH DEPOSIT ON 03/07 4580 Jimmy Lee Smith Pkwy Hiram GA 0001648 ATM ID 0723N CARD 4487"
-}
-```
-
-
 <!--
 type: tab
 titles: Request, Response
