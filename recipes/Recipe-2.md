@@ -1,20 +1,9 @@
 # Recipe #1
 
-Account Transaction Enrichment 
-
----
-- [Step 1: Create Keys](#step-1-create-keys)
-- [Step 2: Get Enrichment Details](#step-2-get-payment-details)
+## Account Transaction Enrichment 
 
 
-
----
-
-## Step 1: Create Keys
-Please connect with implementation team to enroll 
-
-
-## Step 2: Get enrichment details
+## Get Account Transaction enrichment details
 The Account Based enrichment
 
 ```json
