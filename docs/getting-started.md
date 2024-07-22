@@ -9,7 +9,7 @@ titles: Before You Start, Know Our Standard API Structure
 >
 > The current user journey enables developers to register for a trial plan that provides access to enrich different kind of transactions. <br><br>To get access to a dedicated test environment, optional and ancillary services, including dedicated technical services, upgrade to a paid Developer Studio subscription plan <a href="https://appmarket.fiservapps.com/fintech" > here</a>.
 
-Before you start integration, it is important to register on the Fiserv Developer Studio to test the Enrichment APIs in the Sandbox environment. You may choose to test APIs using the [Third-party API Testing Tools](#tab-make_your_first_api_call) of your choice. However, registration is not required to learn about our APIs and reference documentation.
+Before you start the integration, please talk to your Fiserv implementation specialists to obtain the host URLs and API credentials, and follow the API structure to develop your applications.
 
 
 
