@@ -4,15 +4,6 @@
 
 
 ## Get Card Transaction enrichment details
-The Card Based enrichment
-
-```json
-{
-    "transactionDescription": "PURCHASE AUTHORIZED ON 02/04 COSTCO WHSE #1004 SAN JOSE CA P383036079858356 CARD 1504",
-     "mcc": "5300"
-}
-```
-
 
 <!--
 type: tab
