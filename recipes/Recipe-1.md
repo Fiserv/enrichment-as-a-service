@@ -3,18 +3,13 @@
 Card Transaction Enrichment 
 
 ---
-- [Step 1: Create Keys](#step-1-create-keys)
-- [Step 2: Get Enrichment Details](#step-2-get-payment-details)
+- [Get Enrichment Details](#step-2-get-payment-details)
 
 
 
 ---
 
-## Step 1: Create Keys
-Please connect with implementation team to enroll 
-
-
-## Step 2: Get enrichment details
+## Get Card Transaction enrichment details
 The Card Based enrichment
 
 ```json
