@@ -2,10 +2,6 @@
 
 ## ATM Transaction Enrichment 
 
-
-## Get ATM Transaction enrichment details
-The ATM Based enrichment
-
 <!--
 type: tab
 titles: Request, Response
