@@ -1,6 +1,6 @@
 <!-- 
 type: tab 
-titles: Before You Start, Know Our Standard API Structure, Make Your First API Call
+titles: Before You Start, Know Our Standard API Structure
 -->
 
 # Before You Start
