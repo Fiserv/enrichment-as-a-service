@@ -45,7 +45,7 @@ Request URL is formed by appending Host URL and API path.
 <!-- theme: info -->
 > **Request URL = Host URL + API path**
 >
-> https://eaas-qa.internal.ondotsystems.com/transactions/v2/enrichments
+> https://<URL>/transactions/v2/enrichments
 
 
 The API path along with the method (POST or PUT) is listed under the API Explorer section of that API on Fiserv Developer Studio. 
