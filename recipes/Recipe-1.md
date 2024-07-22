@@ -1,13 +1,7 @@
 # Recipe #1
 
-Card Transaction Enrichment 
+## Card Transaction Enrichment 
 
----
-- [Get Enrichment Details](#step-2-get-payment-details)
-
-
-
----
 
 ## Get Card Transaction enrichment details
 The Card Based enrichment
