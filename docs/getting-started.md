@@ -7,9 +7,9 @@ titles: Before You Start, Know Our Standard API Structure
 <!-- theme: info -->
 > #### Note for Developers 
 >
-> The current user journey enables developers to register for a trial plan that provides access to enrich different kind of transactions. <br><br>To get access to a dedicated test environment, optional and ancillary services, including dedicated technical services, upgrade to a paid Developer Studio subscription plan <a href="https://appmarket.fiservapps.com/fintech" > here</a>.
+> Before you start the integration, please talk to your Fiserv implementation specialists to obtain the host URLs and API credentials, and follow the API structure to develop your applications.
 
-Before you start the integration, please talk to your Fiserv implementation specialists to obtain the host URLs and API credentials, and follow the API structure to develop your applications.
+
 
 
 
@@ -44,7 +44,8 @@ Request URL is formed by appending Host URL and API path.
 <!-- theme: info -->
 > **Request URL = Host URL + API path**
 >
-> https://<URL>/transactions/v2/enrichments
+>
+https://\<public URL\>/transactions/v2/enrichments
 
 
 The API path along with the method (POST or PUT) is listed under the API Explorer section of that API on Fiserv Developer Studio. 
