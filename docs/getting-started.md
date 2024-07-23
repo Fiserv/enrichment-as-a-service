@@ -20,7 +20,7 @@ titles: Before You Start, Know Our Standard API Structure
 
 # Know Our Standard API Structure 
 
-This section describes a standard structure of request and response message of Integrated Transaction Enrichment RESTful APIs. 
+This section describes the standard structure of request and response messages of Integrated Transaction Enrichment RESTful APIs. 
 
 ## Request Message
 
@@ -31,7 +31,6 @@ All API requests must contain the following components:
 *	[Request Header](#request-header)
 *	[Request Body](#request-body)
 
-For every API request, a response message is obtained that contains a response payload and the status of the API request.
 
 ### API Method
 
@@ -45,22 +44,19 @@ Request URL is formed by appending Host URL and API path.
 > **Request URL = Host URL + API path**
 >
 >
-https://\<public URL\>/transactions/v2/enrichments
+https://\<HOST URL\>/transactions/v2/enrichments
 
 
-The API path along with the method (POST or PUT) is listed under the API Explorer section of that API on Fiserv Developer Studio. 
-Refer the following example to construct a request URL for [**Transaction Enrichment**](../api/?type=post&path=/transactions/v2/enrichments) API:
-
+The API path along with the method (POST or PUT) is listed under the API Explorer section. 
 
 ### Request Header
   
-  
-Header parameters are common for all API requests of Banking Hub APIs. Header parameters are sent as a JSON object under Integrated Transaction Enrichment header parameter.
+Header parameters are common for all API requests as follows.
 
 |     Header Name      |     Description                                          |     Required      |
 |---------------------|----------------------------------------------------------|---------------|
-|     ``Authorization`` |    <p>use your username and password values, appended to the text  as follows: </p> <p> <code> username:password </code></p> <p> **Important:** In Postman, use the **Headers** tab to enter Username and Password values </p>                      |     Required    |
-|     ``deploymentToken`` |    <p>Deployment Token given while subscriping the enrichment API </p>                      |     Required    |
+|     ``Authorization`` |    <p>Use your username and password values, appended to the text  as follows: </p> <p> <code> username:password </code></p> <p> **Important:** In Postman, use the **Headers** tab to enter this Authorization header's name and value </p>                      |     Required    |
+|     ``deploymentToken`` |    <p>deploymentToken provided by Fiserv Implementation Specialists </p>                      |     Required    |
 |     ``Content-Type`` |    <p>application/json </p>                      |     Required    |
 
 
@@ -74,11 +70,7 @@ Header parameters are common for all API requests of Banking Hub APIs. Header pa
 
 ### Request Body
 
-The request body of an API changes based on the type of transaction being processed. Request body contains the detailed information that is required to perform a particular transaction.
-
-**Request Payload** 
-
-The following example shows the sample request payload for **Transaction Enrichment** API request.
+The following example shows the sample payload for **Transaction Enrichment** API request.
 
 ```
 {
@@ -89,12 +81,7 @@ The following example shows the sample request payload for **Transaction Enrichm
 
 ## Response Message
 
-Upon a successful API request, a response payload is received. The response payload contains the status and the returned details of the requested API in key-value pairs. The default response format is JSON. 
-
-
-### Response Payload
-
-The following example shows the sample response payload for **Transaction Enrichment** API request.
+Upon a successful API request, a response payload will be received with http status code 200. The following is sample response payload.
 
 ```
 {
@@ -155,7 +142,7 @@ The following example shows the sample response payload for **Transaction Enrich
 
 ```
 
-To view the API documentation of **Transaction Enrichment** API in API Explorer, [click here](../api/?type=post&path=/transactions/v2/enrichments).
+To view the API documentation, [click here](../api/?type=post&path=/transactions/v2/enrichments).
 
 
 <!-- type: tab-end -->
