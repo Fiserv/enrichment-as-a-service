@@ -39,6 +39,18 @@ servers:
 paths:
   /transactions/v2/enrichments:
     post:
+      parameters:
+        - in: header
+          name: Authorization
+          required: true
+          description: username:password
+          schema:
+            type: string
+        - in: header
+          name: deploymentToken
+          required: true
+          schema:
+            type: string
       security:
       - BasicAuth: []
       tags:
