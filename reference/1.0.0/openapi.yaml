@@ -45,6 +45,7 @@ paths:
         - enrichedTransactions
       x-group-name: Integration Transaction Enrichment
       x-proxy-name: Enrichment API
+      x-trace-id: Trace ID of the given Request
       summary: A cloud-based service to cleanse and then enrich transactions with additional data attributes.
       operationId: enrichedTransactions
       requestBody:
@@ -60,6 +61,18 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/EnrichmentResponse'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '400':
+          description: BadRequest
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
 components:
   securitySchemes:
     BasicAuth:
@@ -207,4 +220,26 @@ components:
         paymentServiceProvider:
           type: string
           description: Payment Service Provider
-  
+    ErrorResponse:
+      required:
+        - message
+        - error
+        - status
+      type: object
+      properties:
+        timestamp:
+          type: number
+          description: EPOCH time
+        status:
+          type: string
+          description: HTTP Status code
+        error:
+          type: string
+          description: Short Description of Error
+        message:
+          type: string
+          description: Detail Description of Error
+        path:
+          type: string
+          description: API URI path
+    
