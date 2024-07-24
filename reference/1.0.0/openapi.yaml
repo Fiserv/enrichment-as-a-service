@@ -144,12 +144,6 @@ components:
         enrichmentStatus:
           type: string
           description: "Enrichment status: MERCHANT_AND_STORE_RESOLVED ; MERCHANT_RESOLVED; MERCHANT_NAME_CLEANSED; MERCHANT_CATEGORIZED; UN_ENRICHED. Merchant address and location will be available when status is MERCHANT_AND_STORE_RESOLVED\nIF can not be resolved as MSR or MR,\_ and both clean name and prefix didn't pass the threshold, the enrichment status can be MERCHANT_CATEGORIZED.\nIF enrichmentStatus=='MERCHANT_NAME_CLEANSED',\_return more readable name.\nFor regular words, use the camel hump format: First letter of the word is uppercase,\_ all the other are lowercase.\nFor unknown abbreviation, keep all of them uppercase.\nIf the character length of the word is less than 4, then consider it as abbreviation, otherwise consider it as regular words."
-        ondotMerchantId:
-          type: string
-          description: Enriched Ondot Merchant ID if enrichment status is MERCHANT_RESOLVED, otherwise empty
-        ondotStoreId:
-          type: string
-          description: Enriched Ondot Store ID if enrichment status is MERCHANT_AND_STORE_RESOLVED, otherwise empty
         enrichedMerchantName:
           type: string
           description: "Enriched merchant name\nif store resolved, return the corresponding merchant name;\_\nif merchant resolved, return the merchant name;\_\nif standard merchant name is available under either of the circumstances, return the standard merchant name."
