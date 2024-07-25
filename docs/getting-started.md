@@ -30,6 +30,7 @@ All API requests must contain the following components:
 * [Request URL](#request-url)
 *	[Request Header](#request-header)
 *	[Request Body](#request-body)
+*	[Response Header](#response-header)
 
 
 ### API Method
@@ -91,8 +92,6 @@ Upon a successful API request, a response payload will be received with http sta
     "transactionCategory": "Transfers & Adjustments",
     "transactionSubCategory": "Other Transfers & Adjustments",
     "logoUrl": "https://d25gxhepcf5qi6.cloudfront.net/eaas_qa/logo/45acebb8-9b4f-49da-a071-9670988dc89b.png",
-    "ondotMerchantId": "45acebb8-9b4f-49da-a071-9670988dc89b",
-    "ondotStoreId": "cd458d13-59b6-4f1a-a319-839791c04bd8",
     "enrichedMerchantAddress": "4001 Geist Rd",
     "enrichedMerchantCity": "Fairbanks",
     "enrichedMerchantState": "AK",
@@ -139,6 +138,21 @@ Upon a successful API request, a response payload will be received with http sta
     "enrichedTransactionDescription": "ATM Withdrawal Spirit of Alaska Federal Credit Union",
     "enrichedStandardMerchantDomain": "spiritofak.com"
 }
+
+```
+
+### Response Header
+  
+Header parameters are common for all API responses as follows.
+
+|     Header Name      |     Description                                          |     Required      |
+|---------------------|----------------------------------------------------------|---------------|
+|     ``traceId`` |    <p>API returns traceId for future reference</p>                      |     Required    |
+
+
+**Sample Header Example**
+```
+"traceId":"66a17ce5e2c5c50dcfe8db0bd68c10e2"
 
 ```
 
