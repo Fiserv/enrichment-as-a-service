@@ -32,7 +32,6 @@ type: tab
     "transactionCategory": "Transfers & Adjustments",
     "transactionSubCategory": "Bill Payments",
     "logoUrl": "https://d25gxhepcf5qi6.cloudfront.net/eaas_qa/logo/3f3f9a3e-fb58-45b2-bfc4-e7f03b15f72d.png",
-    "ondotMerchantId": "0d582c49-a7b9-4a23-b6d6-3558c6fc0773",
     "enrichedMerchantCountry": "US",
     "url": "http://www.united.com",
     "transactionType": "cnp",
