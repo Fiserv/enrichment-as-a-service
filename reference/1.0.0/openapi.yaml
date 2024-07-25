@@ -55,7 +55,7 @@ paths:
       - BasicAuth: []
       tags:
         - enrichedTransactions
-      x-group-name: Integration Transaction Enrichment
+      x-group-name: Integrated Transaction Enrichment
       x-proxy-name: Enrichment API
       x-trace-id: Trace ID of the given Request
       summary: A cloud-based service to cleanse and then enrich transactions with additional data attributes.
