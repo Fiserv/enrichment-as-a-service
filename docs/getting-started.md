@@ -46,7 +46,7 @@ Request URL is formed by appending Host URL and API path.
 > **Request URL = Host URL + API path**
 >
 >
-https://<HOST URL\>/transactions/v2/enrichments
+https://**HOST URL**/transactions/v2/enrichments
 
 
 The API path along with the method (POST or PUT) is listed under the API Explorer section. 
