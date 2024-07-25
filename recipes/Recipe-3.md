@@ -32,8 +32,6 @@ type: tab
     "transactionCategory": "Miscellaneous Income",
     "transactionSubCategory": "Deposit",
     "logoUrl": "https://d25gxhepcf5qi6.cloudfront.net/eaas_qa/logo/5d11cffd-d5da-4aa6-8c6b-590abcf36247.png",
-    "ondotMerchantId": "5d11cffd-d5da-4aa6-8c6b-590abcf36247",
-    "ondotStoreId": "4b4c7f88-6d4b-4116-a9e0-43c122960718",
     "enrichedMerchantAddress": "4580 Jimmy Lee Smith Pkwy",
     "enrichedMerchantCity": "Hiram",
     "enrichedMerchantState": "GA",
