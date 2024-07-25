@@ -32,7 +32,6 @@ type: tab
     "transactionCategory": "Transfers & Adjustments",
     "transactionSubCategory": "Other Transfers & Adjustments",
     "logoUrl": "https://d25gxhepcf5qi6.cloudfront.net/eaas_qa/logo/9844ed5c-0609-42eb-9f6d-bac804f51ea9.png",
-    "ondotMerchantId": "0e48f1fe-8a94-44b1-82d2-c0927ad05208",
     "enrichedMerchantCountry": "US",
     "url": "https://www.chase.com",
     "transactionType": "cnp",

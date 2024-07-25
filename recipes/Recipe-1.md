@@ -33,8 +33,6 @@ type: tab
     "transactionCategory": "Goods & Merchandise",
     "transactionSubCategory": "General Merchandise",
     "logoUrl": "https://d25gxhepcf5qi6.cloudfront.net/eaas_qa/logo/e31b6bec-8fc8-432d-a9f5-fca037e421ad.png",
-    "ondotMerchantId": "e2afc3d3-c7e7-4200-b190-dc6fd47dfabc",
-    "ondotStoreId": "868db084-6b27-4014-9cdd-a78080e1b851",
     "enrichedMerchantAddress": "1709 Automation Pkwy",
     "enrichedMerchantCity": "San Jose",
     "enrichedMerchantState": "CA",

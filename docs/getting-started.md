@@ -31,6 +31,7 @@ All API requests must contain the following components:
 *	[Request Header](#request-header)
 *	[Request Body](#request-body)
 *	[Response Header](#response-header)
+*	[Response Message](#response-message)
 
 
 ### API Method
