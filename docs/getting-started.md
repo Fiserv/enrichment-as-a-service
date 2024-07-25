@@ -80,6 +80,20 @@ The following example shows the sample payload for **Transaction Enrichment** AP
 }
 ```
 
+### Response Header
+  
+Header parameters are common for all API responses as follows.
+
+|     Header Name      |     Description                                          |     Required      |
+|---------------------|----------------------------------------------------------|---------------|
+|     ``traceId`` |    <p>traceId for future reference</p>                      |     Required    |
+
+
+**Sample Header Example**
+```
+"traceId":"66a17ce5e2c5c50dcfe8db0bd68c10e2"
+
+```
 
 ## Response Message
 
@@ -142,20 +156,7 @@ Upon a successful API request, a response payload will be received with http sta
 
 ```
 
-### Response Header
-  
-Header parameters are common for all API responses as follows.
 
-|     Header Name      |     Description                                          |     Required      |
-|---------------------|----------------------------------------------------------|---------------|
-|     ``traceId`` |    <p>API returns traceId for future reference</p>                      |     Required    |
-
-
-**Sample Header Example**
-```
-"traceId":"66a17ce5e2c5c50dcfe8db0bd68c10e2"
-
-```
 
 To view the API documentation, [click here](../api/?type=post&path=/transactions/v2/enrichments).
 
