@@ -39,6 +39,18 @@ servers:
 paths:
   /transactions/v2/enrichments:
     post:
+      parameters:
+        - in: header
+          name: Authorization
+          required: true
+          description: username:password
+          schema:
+            type: string
+        - in: header
+          name: deploymentToken
+          required: true
+          schema:
+            type: string
       security:
       - BasicAuth: []
       tags:
@@ -57,18 +69,33 @@ paths:
       responses:
         '200':
           description: OK
+          headers:
+            traceId:
+              schema:
+                type: string
+              description: Trace Id for the request.
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/EnrichmentResponse'
         '401':
           description: Unauthorized
+          headers:
+            traceId:
+              schema:
+                type: string
+              description: Trace Id for the request.
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/ErrorResponse'
         '400':
           description: BadRequest
+          headers:
+            traceId:
+              schema:
+                type: string
+              description: Trace Id for the request.
           content:
             application/json:
               schema:
