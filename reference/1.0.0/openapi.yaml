@@ -244,6 +244,9 @@ components:
         transactionType:
           type: string
           description: 'Transaction type: cp(in-store transactions), cnp(online, ecommerce), atm'
+        accountTransactionType:
+          type: string
+          description: 'Account Transaction Type: Card, Billpay, ATM, Transfer, ACH, Zelle, etc'
         paymentServiceProvider:
           type: string
           description: Payment Service Provider
