@@ -1,6 +1,6 @@
 {
   "title": "Integrated Transaction Enrichment",
-  "name": "EnrichmentasaService",
+  "name": "IntegratedTransactionEnrichment",
   "brand": "Fiserv",
   "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Fiserv_Logo.jpg",
   "solution": [
@@ -24,19 +24,19 @@
     "logoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Portal_Logo.png",
     "description": "A cloud-based service to cleanse and then enrich transactions with additional data attributes, including merchant names, location, merchant logos, categories, transaction type and merchant contact information.",
     "longDescription": "A cloud-based service to cleanse and then enrich transactions with additional data attributes, including merchant names, location, merchant logos, categories, transaction type and merchant contact information.",
-    "apiSpecification": "/v1/apis/EnrichmentasaService",
-    "layout": "/v1/layouts/EnrichmentasaService",
-    "documentation": "/v1/docs/EnrichmentasaService",
-    "documenttree": "/v1/docs/EnrichmentasaService",
-    "documenttreeV2": "/v2/docs/EnrichmentasaService",
-    "docsCount": "/v2/docs/count/EnrichmentasaService",
-    "sandbox": "/v2/sandboxrun/EnrichmentasaService",
-    "accessConfig": "/v1/fileAccess/EnrichmentasaService",
-    "assets": "/v1/assets/EnrichmentasaService",
+    "apiSpecification": "/v1/apis/IntegratedTransactionEnrichment",
+    "layout": "/v1/layouts/IntegratedTransactionEnrichment",
+    "documentation": "/v1/docs/IntegratedTransactionEnrichment",
+    "documenttree": "/v1/docs/IntegratedTransactionEnrichment",
+    "documenttreeV2": "/v2/docs/IntegratedTransactionEnrichment",
+    "docsCount": "/v2/docs/count/IntegratedTransactionEnrichment",
+    "sandbox": "/v2/sandboxrun/IntegratedTransactionEnrichment",
+    "accessConfig": "/v1/fileAccess/IntegratedTransactionEnrichment",
+    "assets": "/v1/assets/IntegratedTransactionEnrichment",
     "feature": [
       {
         "name": "sandBox",
-        "value": false
+        "value": true
       },
       {
         "name": "plugins",
