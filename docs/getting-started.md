@@ -55,11 +55,11 @@ Header parameters are common for all API requests as follows.
 
 |     Header Name      |     Description                                          |     Required      |
 |---------------------|----------------------------------------------------------|---------------|
-|     ``Authorization`` |    <p>Use your username and password values, appended to the text  as follows: </p> <p> <code> username:password </code></p> <p> **Important:** In Postman, use the **Headers** tab to enter this Authorization header's name and value </p>                      |     Required    |
-|     ``deploymentToken`` |    <p>deploymentToken provided by Fiserv Implementation Specialists </p>                      |     Required    |
-|     ``Content-Type`` |    <p>application/json </p>                      |     Required    |
+|     ``Authorization`` |    Use your username and password values, appended to the text  as follows: ``` username:password  ``` **Important:** In Postman, use the **Headers** tab to enter this Authorization header's name and value                       |     Required    |
+|     ``deploymentToken`` |    deploymentToken provided by Fiserv Implementation Specialists                       |     Required    |
+|     ``Content-Type`` |   application/json                      |     Required    |
 
-**Sample Header Example**
+### Sample Header Example
 
 ```
 
@@ -90,7 +90,7 @@ Header parameters are common for all API responses as follows.
 |     ``traceId`` |    <p>traceId for future reference</p>                      |     Required    |
 
 
-**Sample Header Example**
+### Sample Header Example
 
 ```
 
