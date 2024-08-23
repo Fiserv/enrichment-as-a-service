@@ -5,15 +5,13 @@ titles: Before You Start, Know Our Standard API Structure
 
 # Before You Start
 <!-- theme: info -->
-> #### Note for Developers 
+> ## Note for Developers 
 >
 > Before you start the integration, please talk to your Fiserv implementation specialists to obtain the host URLs and API credentials, and follow the API structure to develop your applications.
 
 
 
-
-
-<a href="#tab-know_our_standard_api_structure" >Next - Know Our Standard API Structure</a> 
+[Next - Know Our Standard API Structure](#know-our-standard-api-structure)
 
 
 <!-- type: tab -->
@@ -57,13 +55,14 @@ Header parameters are common for all API requests as follows.
 
 |     Header Name      |     Description                                          |     Required      |
 |---------------------|----------------------------------------------------------|---------------|
-|     ``Authorization`` |    <p>Use your username and password values, appended to the text  as follows: </p> <p> <code> username:password </code></p> <p> **Important:** In Postman, use the **Headers** tab to enter this Authorization header's name and value </p>                      |     Required    |
-|     ``deploymentToken`` |    <p>deploymentToken provided by Fiserv Implementation Specialists </p>                      |     Required    |
-|     ``Content-Type`` |    <p>application/json </p>                      |     Required    |
+|     ``Authorization`` |    Use your username and password values, appended to the text  as follows: ``` username:password  ``` **Important:** In Postman, use the **Headers** tab to enter this Authorization header's name and value                       |     Required    |
+|     ``deploymentToken`` |    deploymentToken provided by Fiserv Implementation Specialists                       |     Required    |
+|     ``Content-Type`` |   application/json                      |     Required    |
 
+### Sample Header Example
 
-**Sample Header Example**
-```
+```json
+
 "Content-Type":"application/json"
 "Authorization":"username:password"
 "deploymentToken":"<deploymentToken>"
@@ -74,10 +73,12 @@ Header parameters are common for all API requests as follows.
 
 The following example shows the sample payload for **Transaction Enrichment** API request.
 
-```
+```json
+
 {
     "transactionDescription": "ATM WITHDRAWAL - SPIRIT OF Alaska 4001 GEIST ROAD FAIRBANKS AKUS",
 }
+
 ```
 
 ### Response Header
@@ -86,11 +87,13 @@ Header parameters are common for all API responses as follows.
 
 |     Header Name      |     Description                                          |     Required      |
 |---------------------|----------------------------------------------------------|---------------|
-|     ``traceId`` |    <p>traceId for future reference</p>                      |     Required    |
+|     ``traceId`` |    traceId for future reference                      |     Required    |
 
 
-**Sample Header Example**
-```
+### Sample Header Example
+
+```json
+
 "traceId":"66a17ce5e2c5c50dcfe8db0bd68c10e2"
 
 ```
@@ -99,7 +102,8 @@ Header parameters are common for all API responses as follows.
 
 Upon a successful API request, a response payload will be received with http status code 200. The following is sample response payload.
 
-```
+```json
+
 {
     "enrichedStatus": "MERCHANT_AND_STORE_RESOLVED",
     "enrichedMerchantName": "Spirit of Alaska Federal Credit Union",

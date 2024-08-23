@@ -51,8 +51,6 @@ paths:
           required: true
           schema:
             type: string
-      security:
-      - BasicAuth: []
       tags:
         - enrichedTransactions
       x-group-name: Integrated Transaction Enrichment
