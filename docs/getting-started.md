@@ -87,7 +87,7 @@ Header parameters are common for all API responses as follows.
 
 |     Header Name      |     Description                                          |     Required      |
 |---------------------|----------------------------------------------------------|---------------|
-|     ``traceId`` |    <p>traceId for future reference</p>                      |     Required    |
+|     ``traceId`` |    traceId for future reference                      |     Required    |
 
 
 ### Sample Header Example
