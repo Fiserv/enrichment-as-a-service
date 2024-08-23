@@ -5,7 +5,7 @@ titles: Before You Start, Know Our Standard API Structure
 
 # Before You Start
 <!-- theme: info -->
-> #### Note for Developers 
+> ## Note for Developers 
 >
 > Before you start the integration, please talk to your Fiserv implementation specialists to obtain the host URLs and API credentials, and follow the API structure to develop your applications.
 
