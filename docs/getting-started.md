@@ -11,9 +11,7 @@ titles: Before You Start, Know Our Standard API Structure
 
 
 
-
-
-<a href="#tab-know_our_standard_api_structure" >Next - Know Our Standard API Structure</a> 
+[Next - Know Our Standard API Structure](#tab-know_our_standard_api_structure)
 
 
 <!-- type: tab -->
