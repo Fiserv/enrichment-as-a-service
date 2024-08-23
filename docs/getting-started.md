@@ -61,13 +61,11 @@ Header parameters are common for all API requests as follows.
 |     ``deploymentToken`` |    <p>deploymentToken provided by Fiserv Implementation Specialists </p>                      |     Required    |
 |     ``Content-Type`` |    <p>application/json </p>                      |     Required    |
 
-
 **Sample Header Example**
 ```
 "Content-Type":"application/json"
 "Authorization":"username:password"
 "deploymentToken":"<deploymentToken>"
-
 ```
 
 ### Request Body
@@ -92,7 +90,6 @@ Header parameters are common for all API responses as follows.
 **Sample Header Example**
 ```
 "traceId":"66a17ce5e2c5c50dcfe8db0bd68c10e2"
-
 ```
 
 ## Response Message
