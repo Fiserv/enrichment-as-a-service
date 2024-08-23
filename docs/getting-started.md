@@ -61,7 +61,7 @@ Header parameters are common for all API requests as follows.
 
 ### Sample Header Example
 
-```
+```json
 
 "Content-Type":"application/json"
 "Authorization":"username:password"
@@ -73,7 +73,7 @@ Header parameters are common for all API requests as follows.
 
 The following example shows the sample payload for **Transaction Enrichment** API request.
 
-```
+```json
 
 {
     "transactionDescription": "ATM WITHDRAWAL - SPIRIT OF Alaska 4001 GEIST ROAD FAIRBANKS AKUS",
@@ -92,7 +92,7 @@ Header parameters are common for all API responses as follows.
 
 ### Sample Header Example
 
-```
+```json
 
 "traceId":"66a17ce5e2c5c50dcfe8db0bd68c10e2"
 
@@ -102,7 +102,7 @@ Header parameters are common for all API responses as follows.
 
 Upon a successful API request, a response payload will be received with http status code 200. The following is sample response payload.
 
-```
+```json
 
 {
     "enrichedStatus": "MERCHANT_AND_STORE_RESOLVED",
