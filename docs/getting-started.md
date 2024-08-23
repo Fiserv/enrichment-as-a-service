@@ -11,7 +11,7 @@ titles: Before You Start, Know Our Standard API Structure
 
 
 
-[Next - Know Our Standard API Structure](#tab-know_our_standard_api_structure)
+[Next - Know Our Standard API Structure](#tab-know-our-standard-api-structure)
 
 
 <!-- type: tab -->
