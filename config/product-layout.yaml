@@ -29,7 +29,7 @@
 ################################################################################
 header:
   productName: Integrated Transaction Enrichment
-  productionDescription: A cloud-based service to cleanse and then enrich transactions with additional data attributes, including merchant names, locations, merchant logos, categories, transaction types and merchant contact information. \n**Please note In addition to the API, your financial institution needs to reach out to your Relationship Manager to ensure the correct servicing agreements and connectivity are completed.
+  productionDescription: A cloud-based service to cleanse and then enrich transactions with additional data attributes, including merchant names, locations, merchant logos, categories, transaction types and merchant contact information.
   whoIsItFor: Financial Institutions, fintech solution providers, and anyone else who want to cleanse and enrich the transactions.
   image: 
     link: "/assets/images/Fiserv_Logo.jpg"
