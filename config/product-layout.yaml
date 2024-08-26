@@ -29,7 +29,7 @@
 ################################################################################
 header:
   productName: Integrated Transaction Enrichment
-  productionDescription: A cloud-based service to cleanse and then enrich transactions with additional data attributes, including merchant names, location, merchant logos, categories, transaction type and merchant contact information.
+  productionDescription: A cloud-based service to cleanse and then enrich transactions with additional data attributes, including merchant names, locations, merchant logos, categories, transaction types and merchant contact information. **Please note:**  In addition to the API, your financial institution needs to reach out to your Relationship Manager to ensure the correct servicing agreements and connectivity are completed.
   whoIsItFor: Financial Institutions, fintech solution providers, and anyone else who want to cleanse and enrich the transactions.
   image: 
     link: "/assets/images/Fiserv_Logo.jpg"
@@ -40,13 +40,13 @@ benefits:
   - title: Lower false chargebacks
     description:  Lower false chargebacks that may arise from unrecognizable transactions.
   - title: Increase user satisfaction
-    description:  Richer transaction receipts and statements increases customer satisfaction
+    description:  Richer transaction receipts and statements increases customer satisfaction.
 featuredFeatures:
   - title: Card Transaction Enrichment
     description:  Enrich pending or posted credit or debit card transactions by leveraging real-time authorization attributes not available elsewhere.
     tags: ["real-time", "pending", "card"]  
   - title: BillPay & ACH Transaction Enrichment
-    description:  Enrich BillPay or other ACH transactions with consistent merchant name and categories as card transactions.
+    description:  Enrich BillPay or other ACH transactions with consistent merchant names and categories as card transactions.
     tags: ["Category", "BillPay", "ACH"]
   - title: Digital Payment Enrichment
     description:  Enrich Zelle, P2P, and other digital payment transactions with the automatic detection of person's name vs merchant name.
