@@ -7,7 +7,7 @@ titles: Before You Start, Know Our Standard API Structure
 <!-- theme: info -->
 > ## Note for Developers 
 >
-> Before you start the integration, please talk to your Fiserv implementation specialists to obtain the host URLs and API credentials, and follow the API structure to develop your applications.
+> Before you start the integration, please talk to your Fiserv relationship managers to ensure the correct servicing agreements are completed. Then our implementation specialists will help you obtain the host URLs and API credentials needed for you to follow the API structure to develop your applications.
 
 
 
