@@ -1,42 +1,43 @@
 {
-  "title": "Enrichment as a Service",
-  "name": "EnrichmentasaService",
+  "title": "Integrated Transaction Enrichment",
+  "name": "IntegratedTransactionEnrichment",
   "brand": "Fiserv",
   "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Fiserv_Logo.jpg",
+  "coastURL": "https://fiserv.coastdemo.com/share/66ce880122440188d7534c27?step=1&mode=link&zoom=90&layoutType=web",
   "solution": [
     "financial-institutions",
     "fintech"
   ],
-  "brandDescription": "REPLACE ME > Fiserv, Inc. is a global provider of payments and financial services technology solutions. The Company provides account processing and digital banking solutions, card issuer processing and network services, payments, e-commerce, merchant acquiring and processing, and the Clover cloud-based point-of-sale solution. The Company operates through three segments: Merchant Acceptance (Acceptance), Financial Technology (Fintech) and Payments and Network (Payments).",
+  "brandDescription": "Fiserv, Inc. is a global provider of payments and financial services technology solutions. The Company provides account processing and digital banking solutions, card issuer processing and network services, payments, e-commerce, merchant acquiring and processing, and the Clover cloud-based point-of-sale solution. The Company operates through three segments: Merchant Acceptance (Acceptance), Financial Technology (Fintech) and Payments and Network (Payments).",
   "apiVersions": [
     {
       "version": "1.0.0",
       "versionType": "major",
-      "releaseNotesPath": "docs/release-notes/2022/march.md",
+      "releaseNotesPath": "docs/release-notes/2024/july.md",
       "apiSpecFileNames": [
         "openapi"
       ]
     }
   ],
-  "getStartedFilePath": "/docs/getting-started.md",
+  "getStartedFilePath": "docs/getting-started.md",
   "product": {
     "featured": true,
     "logoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Portal_Logo.png",
-    "description": "To onboard properly into the Developer Studio as a tenant each product must support these APIs so that we can retrieve product specific API specifications and documentation.",
-    "longDescription": "To onboard properly into the Developer Studio as a tenant each product must support these APIs so that we can retrieve product specific API specifications and documentation.",
-    "apiSpecification": "/v1/apis/EnrichmentasaService",
-    "layout": "/v1/layouts/EnrichmentasaService",
-    "documentation": "/v1/docs/EnrichmentasaService",
-    "documenttree": "/v1/docs/EnrichmentasaService",
-    "documenttreeV2": "/v2/docs/EnrichmentasaService",
-    "docsCount": "/v2/docs/count/EnrichmentasaService",
-    "sandbox": "/v2/sandboxrun/EnrichmentasaService",
-    "accessConfig": "/v1/fileAccess/EnrichmentasaService",
-    "assets": "/v1/assets/EnrichmentasaService",
+    "description": "A cloud-based service to cleanse and then enrich transactions with additional data attributes, including merchant names, locations, merchant logos, categories, transaction types and merchant contact information.",
+    "longDescription": "A cloud-based service to cleanse and then enrich transactions with additional data attributes, including merchant names, locations, merchant logos, categories, transaction types and merchant contact information.",
+    "apiSpecification": "/v1/apis/IntegratedTransactionEnrichment",
+    "layout": "/v1/layouts/IntegratedTransactionEnrichment",
+    "documentation": "/v1/docs/IntegratedTransactionEnrichment",
+    "documenttree": "/v1/docs/IntegratedTransactionEnrichment",
+    "documenttreeV2": "/v2/docs/IntegratedTransactionEnrichment",
+    "docsCount": "/v2/docs/count/IntegratedTransactionEnrichment",
+    "sandbox": "/v1/sandboxrun/IntegratedTransactionEnrichment",
+    "accessConfig": "/v1/fileAccess/IntegratedTransactionEnrichment",
+    "assets": "/v1/assets/IntegratedTransactionEnrichment",
     "feature": [
       {
         "name": "sandBox",
-        "value": false
+        "value": true
       },
       {
         "name": "plugins",
@@ -57,17 +58,17 @@
       "bug": {
         "label": "bug",
         "template": "bug.md",
-        "assignees": "michaelondot, loganathanchandran"
+        "assignees": "loganathanchandran"
       },
       "feedback": {
         "label": "feedback",
         "template": "feedback.md",
-        "assignees": "michaelondot, loganathanchandran"
+        "assignees": "loganathanchandran"
       },
       "enhancement": {
         "label": "enhancement",
         "template": "feature.md",
-        "assignees": "michaelondot, loganathanchandran"
+        "assignees": "loganathanchandran"
       }
     }
   ]
