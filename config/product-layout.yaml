@@ -28,43 +28,26 @@
 # the delivery of this work
 ################################################################################
 header:
-  productName: REPLACEME
-  productionDescription: REPLACEME
-  whoIsItFor: REPLACEME
+  productName: Integrated Transaction Enrichment
+  productionDescription: A cloud-based service to cleanse and then enrich transactions with additional data attributes, including merchant names, locations, merchant logos, categories, transaction types and merchant contact information.
+  whoIsItFor: Financial Institutions, fintech solution providers, and anyone else who want to cleanse and enrich the transactions.
   image: 
     link: "/assets/images/Fiserv_Logo.jpg"
-    altText: REPLACEME™
+    altText: Fiserv logo™
+benefits:
+  - title: Reduce customer service calls
+    description:  Reduce customer service calls due to vague or incorrect transaction information.
+  - title: Lower false chargebacks
+    description:  Lower false chargebacks that may arise from unrecognizable transactions.
+  - title: Increase user satisfaction
+    description:  Richer transaction receipts and statements increases customer satisfaction.
 featuredFeatures:
-  - title: REPLACE ME
-    description:  REPLACE ME
-    tags: ["REPLACEME", "REPLACEME", "REPLACEME"]
-    bullets: ["REPLACEME", "REPLACEME" ]  
-    relatedDocs:
-      - relatedDoc: 
-        title: REPLACEME
-        description: REPLACEME
-        link: ./docs/REPLACE-ME1.md
-      - relatedDoc: 
-        title: REPLACEME
-        description: REPLACEME
-        link: ./docs/REPLACE-ME2.md
-      - relatedDoc: 
-        title: REPLACEME
-        description: REPLACEME
-        link: ./docs/REPLACE-ME3.md
-    relatedAPIs:
-      - relatedAPI: 
-        title: REPLACEME
-        description: REPLACEME
-        type: "patch"        
-        path: "/v1/REPLACEME1"
-      - relatedAPI: 
-        title: REPLACEME
-        description: REPLACEME
-        type: "post"        
-        path: "/v1/REPLACEME2"
-      - relatedAPI: 
-        title: REPLACEME
-        description: REPLACEME
-        type: "get"        
-        path: "/v1/REPLACEME3"
+  - title: Card Transaction Enrichment
+    description:  Enrich pending or posted credit or debit card transactions by leveraging real-time authorization attributes not available elsewhere.
+    tags: ["real-time", "pending", "card"]  
+  - title: BillPay & ACH Transaction Enrichment
+    description:  Enrich BillPay or other ACH transactions with consistent merchant names and categories as card transactions.
+    tags: ["Category", "BillPay", "ACH"]
+  - title: Digital Payment Enrichment
+    description:  Enrich Zelle, P2P, and other digital payment transactions with the automatic detection of person's name vs merchant name.
+    tags: ["Zelle", "P2P", "Digital"]

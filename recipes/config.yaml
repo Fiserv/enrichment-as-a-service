@@ -1,17 +1,17 @@
 
 
 ---
-version: 1.0.0
+version: 24.1.0
 recipes:
 - link: recipes/Recipe-1.md
-  title: Payment with JS
+  title: Card Transaction Enrichment
   type: recipe
 - link: recipes/Recipe-2.md
-  title: Payment with Py
+  title: Account Transaction Enrichment
   type: recipe
 - link: recipes/Recipe-3.md
-  title: Payment with Rust
+  title: ATM Transaction Enrichment
   type: recipe
 - link: recipes/Recipe-4.md
-  title: Payment with Java
+  title: BillPay Transaction Enrichment
   type: recipe
