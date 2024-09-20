@@ -3,7 +3,7 @@
   "name": "IntegratedTransactionEnrichment",
   "brand": "Fiserv",
   "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Fiserv_Logo.jpg",
-  "coastURL": "https://fiserv.coastdemo.com/share/66ce880122440188d7534c27?step=1&mode=link&zoom=90&layoutType=web",
+  "coastURL": "https://fiserv.coastdemo.com/share/66e8dff018f16b65ade8744a?mode=link&zoom=90&layoutType=web",
   "solution": [
     "financial-institutions",
     "fintech"
